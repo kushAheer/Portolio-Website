@@ -12,7 +12,7 @@ function HomeComponent() {
                     <div className='row'>
                         <div className={`col-md-12`}>
                             <div className='d-flex justify-content-center align-items-center'>
-                                <h1 className={`${classes.text}`}>Ochuko</h1>
+                                <h1 className={`${classes.text}`}>Kush</h1>
                             </div>
                         </div>
                         <div className={`col-md-12`}>
@@ -29,7 +29,7 @@ function HomeComponent() {
                 </div>
                 <div className={``}>
                     
-                        <img src={heroBanner} className={`${classes.img} `}/>
+                        <img src={heroBanner} className={`${classes.heroImage} `}/>
                     
                 </div>
             </div>

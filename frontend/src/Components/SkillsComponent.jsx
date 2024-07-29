@@ -35,7 +35,7 @@ function SkillsComponent() {
                     <div className={`${classes.item}`} onMouseOver={(e)=> setOnHoverDatabase(true)} onMouseLeave={(e)=>setOnHoverDatabase(false)}>
                         
 
-                        {onHoverDatabase ? "Mysql | MongoDB" : "Database"}
+                        {onHoverDatabase ? "Mysql | MongoDB | SQL" : "Database"}
                         
                     </div>
                 {/* </div> */}

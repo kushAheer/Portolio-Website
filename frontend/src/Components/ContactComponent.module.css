@@ -1,0 +1,88 @@
+
+.text{
+    font-size: 10rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'myFont';
+    text-transform: uppercase;
+}
+.email{
+    padding-left: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.emailText{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'myFont';
+    text-decoration: underline;
+    color: #DBD6CB;
+    
+}
+.socials{
+    font-size: 1.5rem;
+    color: #7D7873;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    font-family: 'myFont';
+}
+.socialLinks{
+    font-family: 'myFont';
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    gap: 1.5rem;
+}
+.link{
+    text-decoration: none;
+    color: #DBD6CB;
+    
+}
+.link:hover{
+    color: #EF5F37;
+}
+
+@media screen and (max-width: 780px){
+    .text{
+        font-size: 5rem;
+        font-weight: 700;
+        margin: 0;
+        font-family: 'myFont';
+    }
+    .email{
+        padding-left: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .text{
+        font-size: 4rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    .emailText{
+        font-size: 1.2rem;
+        
+        margin: 0;
+        font-family: 'myFont';
+        text-decoration: underline;
+    }
+    
+}
+@media screen and (max-width: 380px){
+    .text{
+        font-size: 3.2rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    .email{
+        padding-left: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+}
+
+

@@ -5,6 +5,7 @@ import './App.css'
 import NavbarComponent from './Components/NavbarComponent'
 import HomeComponent from './Components/HomeComponent'
 import AboutMeComponent from './Components/AboutMeComponent'
+import ProjectsComponent from './Components/ProjectsComponent'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <NavbarComponent />
       <HomeComponent  />
       <AboutMeComponent />
+      
     </>
   )
 }

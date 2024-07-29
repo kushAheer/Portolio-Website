@@ -1,0 +1,21 @@
+.cardStyle{
+    background: transparent;
+    color: white;
+    
+    border-top: 1px solid;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.title{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'myFont';
+}
+.details{
+    font-size: 0.875rem;
+    font-family: 'myFont';
+    text-transform: uppercase;
+}

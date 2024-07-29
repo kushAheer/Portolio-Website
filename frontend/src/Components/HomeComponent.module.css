@@ -14,9 +14,10 @@
     justify-content: center;
     height: 90vh;
     position: fixed;
+    width: 100%;
     z-index: 1;
 }
-img{
+.heroImage{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -35,12 +36,12 @@ img{
 }
 @media screen and (max-width: 768px){
     .text{
-        font-size: 44.8px;
+        font-size: 8rem;
         font-weight: 500;
     }
-    .img{
-        width: 100%;
-        top: 60%;
+    .heroImage{
+        width: 50%;
+        top: 50%;
     }
     
 }
@@ -49,7 +50,7 @@ img{
     .wrapper{
         padding-top: 5rem;
     }
-    .img{
+    .heroImage{
         width: 95%;
         top: 53%;
     }

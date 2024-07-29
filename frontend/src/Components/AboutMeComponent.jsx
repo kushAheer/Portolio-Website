@@ -1,6 +1,8 @@
 import React from 'react'
 import classes from './AboutMeComponent.module.css'
 import SkillsComponent from './SkillsComponent'
+import ProjectsComponent from './ProjectsComponent'
+import ContactComponent from './ContactComponent'
 
 
 function AboutMeComponent() {
@@ -13,7 +15,7 @@ function AboutMeComponent() {
                             <div className='row'>
                                 <h1 className={`${classes.text}`}>GET TO </h1>
                                 <div className='row justify-content-center'>
-                                    <div className='col-md-8 col-sm-10'>
+                                    <div className='col-md-12 col-sm-10'>
                                         <h1 className={`${classes.text} `}>&nbsp; &nbsp;KNOW ME </h1>
                                     </div>
                                 </div>
@@ -24,10 +26,16 @@ function AboutMeComponent() {
                             &nbsp;BIO
                         </div>
                         <div className={`col-md-6 pt-4`}>
-                            <p className={`${classes.bio}`}>My name is Ochuko Pedro and I am a Software Engineer. I do fullstack development but I love building interactive user experiences on the web. I am a JavaScript and TypeScript advocate and a lover of CSS. I have recently taken a liking to Machine Learning and I am trying to delve into the world of AI and Robotics. I believe as engineers we can create things that could potentially change the world for the better.</p>
+                            <p className={`${classes.bio}`}>My name is Kush Aheer and I am a Second Year Student at Maharaja Agarsain Institute of Technology. I do fullstack development but I love building interactive user experiences on the web. I am a JavaScript and Asp.Net advocate and a lover of ReactJs. I am trying to delve into the world of AI and Robotics. I believe as engineers we can create things that could potentially change the world for the better.</p>
+                        </div>
+                        <div className='col-md-12 pt-5 pb-5'>
+                            <SkillsComponent/>
+                        </div>
+                        <div className='col-md-12 pt-5 '>
+                            <ProjectsComponent/>
                         </div>
                         <div className='col-md-12 pt-5'>
-                            <SkillsComponent/>
+                            <ContactComponent/>    
                         </div>
                     </div>
 

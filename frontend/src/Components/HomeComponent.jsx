@@ -6,13 +6,13 @@ function HomeComponent() {
   return (
     <>
     <section className={classes.bgColor}>
-        <div className={`container-fluid pt-2`}>
+        <div className={`container-fluid pt-sm-2 pt-md-1 ${classes.wrapper}`}>
             <div className={`row`}>
                 <div className={`col-md-12`}>
                     <div className='row'>
                         <div className={`col-md-12`}>
                             <div className='d-flex justify-content-center align-items-center'>
-                                <h1 className={`${classes.text}`}>Kush</h1>
+                                <h1 className={`${classes.text}`}>Ochuko</h1>
                             </div>
                         </div>
                         <div className={`col-md-12`}>
@@ -27,10 +27,10 @@ function HomeComponent() {
                         </div>
                     </div>
                 </div>
-                <div className={`col-md-12`}>
-                    <div className={``}>
-                        <img src={heroBanner} className='img-fluid'/>
-                    </div>
+                <div className={``}>
+                    
+                        <img src={heroBanner} className={`${classes.img} `}/>
+                    
                 </div>
             </div>
         </div>

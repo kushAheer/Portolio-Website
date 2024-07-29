@@ -1,6 +1,9 @@
 .bgColor{
     background-color: rgb(17,16,16);
     color: #DBD6CB;    
+    position: relative;
+    z-index: 2;
+    margin-top: 90vh;
 }
 
 .text{
@@ -47,3 +50,20 @@
     }
     
 }
+
+
+/*
+position: relative;
+    background-color: rgb(17, 16, 16);
+    color: #DBD6CB;
+    z-index: 2;
+    margin-top: 90vh;
+
+        position: absolute;
+    bottom: 0;
+    width: 40%;
+    left: 50%;
+    
+    right: 0;
+    transform: translate(-50%, 0%);
+*/

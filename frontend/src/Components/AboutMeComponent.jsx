@@ -11,12 +11,9 @@ function AboutMeComponent() {
                     <div className='row'>
                         <div className='col-md-12 ps-4'>
                             <div className='row'>
-                                
                                 <h1 className={`${classes.text}`}>GET TO </h1>
-                                
                                 <div className='row justify-content-center'>
                                     <div className='col-md-8 col-sm-10'>
-
                                         <h1 className={`${classes.text} `}>&nbsp; &nbsp;KNOW ME </h1>
                                     </div>
                                 </div>

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'myFont';
+  src: url('./assets/Almarena-Mono-Display-Light.otf');
+}
+#root{
+  
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,49 @@
+.bgColor{
+    background-color: rgb(17,16,16);
+    color: #DBD6CB;    
+}
+
+.text{
+    font-size: 10rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'myFont';
+}
+.spacing{
+    word-spacing: 10px;
+}
+.bio{
+    font-family: "myFont";
+    font-size: 1.25rem;
+
+}
+
+@media screen and (max-width: 780px){
+    .text{
+        font-size: 5rem;
+        font-weight: 700;
+        margin: 0;
+        font-family: 'myFont';
+    }
+    .bio{
+        font-family: "myFont";
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .text{
+        font-size: 4rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+}
+@media screen and (max-width: 380px){
+    .text{
+        font-size: 3.2rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+}

@@ -1,0 +1,21 @@
+.itemList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    padding: 3%;
+    border-bottom: 1px solid;
+}
+    
+.item:hover{
+    background-color: #EF5F37;
+    
+}

@@ -1,0 +1,30 @@
+.navBg{
+    background-color: #DBD6CB;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    
+}
+
+.slider{
+    background-color: #DBD6CB;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+
+}
+
+.offCanvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.itemList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: x-large;
+}

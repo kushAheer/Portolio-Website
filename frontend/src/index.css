@@ -7,3 +7,6 @@
   margin: 0px;
   padding: 0px;
 }
+.animate__fadeInDown {
+  --animate-duration: 2s;
+}

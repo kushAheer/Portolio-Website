@@ -2,7 +2,22 @@
     background-color: #DBD6CB;
     color: #000000;
     border-bottom: 1px solid #000000;
+    font-family: "myFont";
     
+}
+.navBgDark{
+    background-color: #101110;
+    color: #DBD6CB;
+    border-bottom: 1px solid #DBD6CB;
+    font-family: "myFont";
+}
+.logoDark{
+    color: #DBD6CB;
+    font-family: 'myFont';
+}
+.logo{
+    color: #000000;
+    font-family: 'myFont';
 }
 
 .slider{
@@ -12,6 +27,13 @@
     padding: 0px;
     height: 100vh;
 
+}
+.sliderDark{
+    background-color: #101110;
+    color: #DBD6CB;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
 }
 
 .offCanvas{
@@ -27,4 +49,19 @@
     align-items: center;
     gap: 50px;
     font-size: x-large;
+}
+
+.itemLink{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'myFont';
+}
+
+.itemLinkDark{
+    color: #DBD6CB;
+    text-decoration: none;
+    font-family: 'myFont';
+}
+.active{
+    color: #EF5F37;
 }

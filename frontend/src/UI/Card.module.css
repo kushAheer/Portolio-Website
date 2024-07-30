@@ -13,9 +13,19 @@
     font-weight: 700;
     margin: 0;
     font-family: 'myFont';
+    color: #DBD6CB;
 }
 .details{
     font-size: 0.875rem;
     font-family: 'myFont';
+    color: #DBD6CB;
     text-transform: uppercase;
+}
+.gitHubLink{
+    font-size: 1rem;
+    font-family: 'myFont';
+    color: #DBD6CB;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
 }

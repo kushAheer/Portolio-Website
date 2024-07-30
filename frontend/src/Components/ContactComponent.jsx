@@ -6,7 +6,7 @@ function ContactComponent() {
     return (
         <>
             
-                <div className={`container-fluid pt-5 pb-5`}>
+                <div className={`container-fluid pt-5 pb-5` } >
                     <div className='row'>
 
                         <div className='col-md-12 ps-4'>

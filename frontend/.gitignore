@@ -3,7 +3,7 @@ frontend/src/assets
 package-lock.json
 assets
 .eslintrc.cjs
-
+KAlogo.svg
 logs
 *.log
 npm-debug.log*

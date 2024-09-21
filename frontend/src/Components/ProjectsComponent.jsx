@@ -28,8 +28,8 @@ function ProjectsComponent() {
 					</div>
 					<div className='col-md-12'>
 							<Card techStack={"ReactJs | Asp.net | Sql"} title={'Blog Website'} image={blogImage} gitHub={'https://github.com/kushAheer/Blog-Webiste'}/>
-							<Card techStack={"ReactJs | Express | MySQl"} title={'E-Commerce Website'} image={eWebsite} gitHub={'https://github.com/kushAheer/E-Commerce-Website'}/>
-							<Card techStack={"ReactJs | Express | MongoDb"} title={'Chat Website'} image={chatImage} gitHub={'https://github.com/kushAheer/Chat-Website'}/>
+							<Card techStack={"ReactJs | Express | MySQl"} title={'E-Commerce Website'} image={eWebsite} gitHub={'https://github.com/kushAheer/E-Commerce-Website'} />
+							<Card techStack={"ReactJs | Express | MongoDb"} title={'Chat Website'} image={chatImage} gitHub={'https://github.com/kushAheer/Chat-Website'} demoLink={"https://chat-website-uf7x.onrender.com"}/>
 						{/* <Card techStack={"ReactJs | Express.net | MySql"} title={'Eccomerce Website'}/> */}
 					</div>
 

@@ -21,6 +21,13 @@
     color: #DBD6CB;
     text-transform: uppercase;
 }
+.linkWrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
 .gitHubLink{
     font-size: 1rem;
     font-family: 'myFont';

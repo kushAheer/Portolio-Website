@@ -17,7 +17,11 @@ function Card(props) {
                         <div className="card-body">
                             <p className={`card-text ${classes.details}`}>{props.techStack}</p>
                             <h1 className={`card-title ${classes.title}`}>{props.title}</h1>
-                            <a className={`card-text ${classes.gitHubLink} `} href={props.gitHub}>GitHub Link</a>
+                            <div className={`${classes.linkWrapper}`}>
+
+                                <a className={`card-text ${classes.gitHubLink} `} href={props.gitHub}>GitHub Link</a>
+                                <a className={`card-text ${classes.gitHubLink} `} href={props.demoLink}>{props.demoLink ? "Demo Link" : ""}</a>
+                            </div>
                         </div>
                     </div>
                 </div>

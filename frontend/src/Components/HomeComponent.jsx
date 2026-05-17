@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './HomeComponent.module.css'
-import heroBanner from '../assets/retro_computer-TrrSyb.webp'
+import heroBanner from '../assets/retro_computer.webp'
 import 'animate.css';
 
 

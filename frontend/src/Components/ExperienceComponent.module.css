@@ -1,0 +1,197 @@
+/* Experience.module.css */
+
+.section {
+  background-color:  rgb(17,16,16);
+  color: #DBD6CB; 
+  padding: 120px 60px;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Section heading matches portfolio style */
+.heading {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: clamp(3rem, 9vw, 9rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 0.9;
+  color: #e8e4dc;
+  margin: 0 0 100px 0;
+  pointer-events: none;
+}
+
+.headingAccent {
+  display: block;
+  padding-left: 8vw;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #e8e4dc;
+}
+
+/* Timeline container */
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Vertical line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #e8e4dc 10%,
+    #e8e4dc 90%,
+    transparent
+  );
+  opacity: 0.25;
+}
+
+/* Individual experience item */
+.item {
+  position: relative;
+  padding: 0 0 80px 60px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.item:last-child {
+  padding-bottom: 0;
+}
+
+/* Dot on timeline */
+.dot {
+  position: absolute;
+  left: -5px;
+  top: 8px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #0d0d0d;
+  border: 1.5px solid #e8e4dc;
+  transition: background 0.3s ease;
+}
+
+.item:hover .dot {
+  background: #e8e4dc;
+}
+
+/* Year label */
+.year {
+  font-family: 'Courier New', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e8e4dc;
+  opacity: 0.45;
+  margin-bottom: 10px;
+}
+
+/* Role title */
+.role {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
+  color: #e8e4dc;
+  margin: 0 0 4px 0;
+  line-height: 1.1;
+}
+
+/* Company */
+.company {
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #e8e4dc;
+  opacity: 0.55;
+  margin-bottom: 18px;
+}
+
+.companyLink {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(232, 228, 220, 0.2);
+  padding-bottom: 1px;
+  transition: opacity 0.2s;
+}
+
+.companyLink:hover {
+  opacity: 1;
+  border-bottom-color: #e8e4dc;
+}
+
+/* Divider line */
+.divider {
+  width: 40px;
+  height: 1px;
+  background: #e8e4dc;
+  opacity: 0.2;
+  margin-bottom: 18px;
+}
+
+/* Description */
+.description {
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #e8e4dc;
+  opacity: 0.65;
+  max-width: 540px;
+  margin-bottom: 20px;
+}
+
+/* Tech tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  font-family: 'Courier New', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0d0d0d;
+  background: #e8e4dc;
+  padding: 4px 10px;
+  opacity: 0.85;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 28px;
+  }
+
+  .heading {
+    margin-bottom: 60px;
+  }
+
+  .headingAccent {
+    padding-left: 0;
+  }
+
+  .item {
+    padding-left: 36px;
+    padding-bottom: 56px;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}

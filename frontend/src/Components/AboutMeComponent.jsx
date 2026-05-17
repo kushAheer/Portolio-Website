@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './AboutMeComponent.module.css'
 import SkillsComponent from './SkillsComponent'
 import ProjectsComponent from './ProjectsComponent'
+import ExperienceComponent from './ExperienceComponent'
 import ContactComponent from './ContactComponent'
 
 
@@ -29,15 +30,21 @@ function AboutMeComponent() {
                                     &nbsp;BIO
                                 </div>
                                 <div className={`col-md-6 pt-4`}>
-                                    <p className={`${classes.bio}`}>My name is Kush Aheer and I am a Second Year Student at Maharaja Agarsain Institute of Technology. I do fullstack development but I love building interactive user experiences on the web. I am a JavaScript and Asp.Net advocate and a lover of ReactJs. I am trying to dive into the world of AI and Robotics. I believe as engineers we can create things that could potentially change the world for the better.</p>
+                                    <p className={`${classes.bio}`}>My name is Kush Aheer and I am a Third Year Student at Maharaja Agarsain Institute of Technology. I do fullstack development but I love building interactive user experiences on the web. I am a JavaScript and Asp.Net advocate and a lover of ReactJs. I am trying to dive into the world of AI and Robotics. I believe as engineers we can create things that could potentially change the world for the better.</p>
                                 </div>
                                 <div className='col-md-12 pt-5 pb-5'>
                                     <SkillsComponent />
                                 </div>
                             </div>
                         </div>
+                        <div className='col-md-12 pt-5' id='experience-id'>
+                            <ExperienceComponent />
+                        </div>
                         <div className='col-md-12 pt-5 ' id='project-id'>
                             <ProjectsComponent />
+                        </div>
+                        <div>
+                            
                         </div>
                         <div className='col-md-12 pt-md-5 pt-0' id='contact-id'>
                             <ContactComponent />

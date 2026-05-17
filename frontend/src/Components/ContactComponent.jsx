@@ -30,7 +30,8 @@ function ContactComponent() {
                                 <div className={`col-md-12 d-flex ${classes.socialLinks}`}>
                                     <a className={`${classes.link}`} href='https://github.com/kushAheer'>Github <Symbol/></a>
                                     <a className={`${classes.link}`} href='https://www.linkedin.com/in/kush-aheer-893373291/'>LinkedIn <Symbol/></a>
-                                    
+                                    <a className={`${classes.link}`} href='https://leetcode.com/u/kushaheer/'>Leetcode <Symbol/></a>
+                                    <a className={`${classes.link}`} href='https://www.codechef.com/users/kushaheer'>Codechef <Symbol/></a>
                                 </div>  
                             </div>
                         </div>

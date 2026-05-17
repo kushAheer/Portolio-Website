@@ -1,10 +1,13 @@
 import React from 'react'
 import classes from './ProjectComponent.module.css'
 import Card from '../UI/Card'
-import blogImage from '../assets/BlogWebsite.png'
-// import chatImage from '../assets/ChatWebsite.png'
-import chatImage from '../assets/chat.png'
 import eWebsite from '../assets/e-website.png'
+import defaultImage from '../assets/retro_computer.webp'
+import blogImage from '../assets/BlogWebsite.png'
+import chatImage from '../assets/chat.png'
+import aiImage from '../assets/Ai_Interview.png'
+import panelTranslateImage from '../assets/panel_translator.png'
+import coinWiseImage from "../assets/coinwise.png"
 
 function ProjectsComponent() {
 	return (
@@ -27,10 +30,13 @@ function ProjectsComponent() {
 						</div>
 					</div>
 					<div className='col-md-12'>
+							<Card techStack={"Next.js 15 | React 19 | Tailwind | Firebase | Vapi"} title={'HireSmart: AI Interview Platform'} image={aiImage} gitHub={'https://github.com/kushAheer/AI-Interview'} demoLink={'https://ai-interview-seven-teal.vercel.app'}/>
+							<Card techStack={"Node.js | Express | MySQL | React | Redux"} title={'E-Commerce Website'} image={eWebsite} gitHub={'https://github.com/kushAheer/E-Commerce-Website'} />
+							<Card techStack={"Python | Streamlit | LangChain | Pinecone | Groq"} title={'CoinWise: AI Financial Assistant'} image={coinWiseImage} gitHub={'https://github.com/kushAheer/CoinWise'}/>
+							<Card techStack={"Python | PyTorch | OCR | MarianMT | OpenCV"} title={'PanelTranslate: AI Manga Translation'} image={panelTranslateImage} gitHub={'https://github.com/kushAheer/PanelTranslate'}/>
 							<Card techStack={"ReactJs | Asp.net | Sql"} title={'Blog Website'} image={blogImage} gitHub={'https://github.com/kushAheer/Blog-Webiste'}/>
-							<Card techStack={"ReactJs | Express | MySQl"} title={'E-Commerce Website'} image={eWebsite} gitHub={'https://github.com/kushAheer/E-Commerce-Website'} />
 							<Card techStack={"ReactJs | Express | MongoDb"} title={'Chat Website'} image={chatImage} gitHub={'https://github.com/kushAheer/Chat-Website'} demoLink={"https://chat-website-uf7x.onrender.com"}/>
-						{/* <Card techStack={"ReactJs | Express.net | MySql"} title={'Eccomerce Website'}/> */}
+							{/* <Card techStack={"WebSockets | React | Node.js (In Progress)"} title={'1v1 Competitive Coding Platform'} image={defaultImage} gitHub={'https://github.com/kushAheer/1v1-coding-platform'}/> */}
 					</div>
 
 				</div>

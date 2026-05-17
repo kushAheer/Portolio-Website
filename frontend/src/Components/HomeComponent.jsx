@@ -8,34 +8,14 @@ function HomeComponent() {
     return (
         <>
             <section className={classes.bgColor} id='home-id'>
-                <div className={`container-fluid pt-sm-2 pt-md-1 ${classes.wrapper}`}>
-                    <div className={`row`}>
-                        <div className={`col-md-12`}>
-                            <div className='row'>
-                                <div className={`col-md-12`}>
-                                    <div className='d-flex justify-content-center align-items-center '>
-                                        <h1 className={`${classes.text} animate__animated animate__fadeInDown `}>Kush</h1>
-                                    </div>
-                                </div>
-                                <div className={`col-md-12`}>
-                                    <div className='d-flex justify-content-start align-items-center'>
-                                        <h1 className={`${classes.text}  animate__animated animate__fadeInLeft `}>Software</h1>
-                                    </div>
-                                </div>
-                                <div className={`col-md-12`}>
-                                    <div className='d-flex justify-content-end align-items-center'>
-                                        <h1 className={`${classes.text} animate__animated animate__fadeInRight`}>Engineer</h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={``}>
-
-                            <img src={heroBanner} className={`${classes.heroImage} `} />
-
-                        </div>
+                <div className={classes.wrapper}>
+                    <div className={classes.headline}>
+                        <h1 className={`${classes.text} ${classes.lineRight} animate__animated animate__fadeInDown`}>Kush Aheer</h1>
+                        <h1 className={`${classes.text} ${classes.lineLeft} animate__animated animate__fadeInLeft`}>Software</h1>
+                        <h1 className={`${classes.text} ${classes.lineRight} animate__animated animate__fadeInRight`}>Engineer</h1>
                     </div>
                 </div>
+                <img src={heroBanner} className={classes.heroImage} alt='Retro computer' />
             </section>
         </>
     )

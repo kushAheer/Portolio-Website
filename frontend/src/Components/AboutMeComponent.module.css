@@ -3,8 +3,10 @@
     color: #DBD6CB;    
     position: relative;
     z-index: 2;
-    margin-top: 90vh;
+    margin-top: max(0px, calc(90vh - var(--navbar-height, 57px)));
+    margin-top: max(0px, calc(90svh - var(--navbar-height, 57px)));
     width: 100%;
+    overflow-x: hidden;
 }
 
 .text{

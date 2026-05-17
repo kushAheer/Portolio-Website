@@ -2,10 +2,36 @@
   font-family: 'myFont';
   src: url('./assets/Almarena-Mono-Display-Light.otf');
 }
-#root{
-  
-  margin: 0px;
-  padding: 0px;
+
+:root {
+  --navbar-height: 57px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: clip;
+}
+
+img,
+svg {
+  max-width: 100%;
 }
 .animate__fadeInDown {
   --animate-duration: 2s;
